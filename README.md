@@ -11,12 +11,6 @@ RatGame is a Java-based game where players strategise around rats, levels, weapo
   - [Prerequisites](#prerequisites)  
   - [Setup & Running the Game](#setup--running-the-game)  
 - [Project Structure](#project-structure)  
-- [Gameplay Overview](#gameplay-overview)  
-- [Level Creation & Customization](#level-creation--customization)  
-- [High Scores & Player Profiles](#high-scores--player-profiles)  
-- [Development & Contribution](#development--contribution)  
-- [License](#license)  
-- [Contact](#contact)
 
 ---
 
@@ -44,3 +38,24 @@ RatGame is a Java-based game where players strategise around rats, levels, weapo
    ```bash
    git clone https://github.com/thecliffes/RatGame.git
    cd RatGame
+
+   RatGame/
+├── src/
+│   ├── Controller.java
+│   ├── Level.java
+│   ├── Rat.java
+│   ├── RatSpawn.java
+│   ├── Weapon.java
+│   ├── Score.java
+│   ├── HighScore.java
+│   ├── PlayerProfile.java
+│   ├── MessageOfTheDay.java
+│   ├── MapView.java
+│   ├── RatWriter.java
+│   └── CustomLevelSelector.java
+├── CustomLevels/          # Directory to load or save custom levels
+├── levels/                # Default level definitions
+├── Weapons/               # Weapon definitions or assets (if images are used)
+├── Images/                # Assets used in the UI or levels
+├── *.fxml                 # JavaFX UI layout files
+└── RatGame.iml            # Project file (likely IntelliJ)
